@@ -15,11 +15,10 @@ export default function Step5({
 
   return (
     <div className="text-center space-y-6">
-      <h1 className="text-4xl font-bold">Perfect 💖</h1>
+      <h1 className="text-4xl font-bold">Glad you did not say no, be ready by {selectedTime}!</h1>
 
       {show && (
         <div className="space-y-4">
-          <p>I'll pick you up at {selectedTime} 😌</p>
           <p>Date: {selectedDate}</p>
           <p>Food: {selectedFood}</p>
 

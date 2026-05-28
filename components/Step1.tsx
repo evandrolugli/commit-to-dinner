@@ -18,12 +18,11 @@ export default function Step1({
 
   return (
     <div className="text-center">
-      {/* Cute cat */}
-      <img
-        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG9tZ3R0b2J2eWZ6c2Z5cGZqZ2V2b3Z5d2R0cGZ6Z2V5Z2V0b2V0ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ICOgUNjpvO0PC/giphy.gif"
-        alt="cute cat"
-        className="w-60 mx-auto mb-6 rounded-2xl"
-      />
+<img
+  src="/sponge-bob.jpeg"
+  alt="spongebob meme"
+  className="w-60 mx-auto mb-6 rounded-2xl"
+/>
 
       <h1 className="text-5xl font-bold mb-10">
         Will you go on a date with me? 💖

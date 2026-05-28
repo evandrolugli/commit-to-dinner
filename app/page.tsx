@@ -9,42 +9,47 @@ import Step5 from "@/components/Step5";
 
 export default function Home() {
   const [step, setStep] = useState(1);
-  
+
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedTime, setSelectedTime] = useState("");
   const [selectedFood, setSelectedFood] = useState("");
 
   return (
-    <main className="min-h-screen bg-black text-white flex items-center justify-center p-6">
-      {step === 1 && <Step1 setStep={setStep} />}
+    <div className="min-h-screen bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-600 flex items-center justify-center p-6">
+      
+      {/* APP CONTAINER */}
+      <div className="w-full max-w-2xl bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl p-8 text-white">
+        
+        {step === 1 && <Step1 setStep={setStep} />}
 
-      {step === 2 && <Step2 setStep={setStep} />}
+        {step === 2 && <Step2 setStep={setStep} />}
 
-      {step === 3 && (
-        <Step3
-          setStep={setStep}
-          selectedDate={selectedDate}
-          setSelectedDate={setSelectedDate}
-          selectedTime={selectedTime}
-          setSelectedTime={setSelectedTime}
-        />
-      )}
+        {step === 3 && (
+          <Step3
+            setStep={setStep}
+            selectedDate={selectedDate}
+            setSelectedDate={setSelectedDate}
+            selectedTime={selectedTime}
+            setSelectedTime={setSelectedTime}
+          />
+        )}
 
-      {step === 4 && (
-        <Step4
-          setStep={setStep}
-          selectedFood={selectedFood}
-          setSelectedFood={setSelectedFood}
-        />
-      )}
+        {step === 4 && (
+          <Step4
+            setStep={setStep}
+            selectedFood={selectedFood}
+            setSelectedFood={setSelectedFood}
+          />
+        )}
 
-      {step === 5 && (
-        <Step5
-          selectedDate={selectedDate}
-          selectedTime={selectedTime}
-          selectedFood={selectedFood}
-        />
-      )}
-    </main>
+        {step === 5 && (
+          <Step5
+            selectedDate={selectedDate}
+            selectedTime={selectedTime}
+            selectedFood={selectedFood}
+          />
+        )}
+      </div>
+    </div>
   );
 }

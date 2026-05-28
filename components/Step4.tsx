@@ -16,7 +16,7 @@ export default function Step4({
 }: any) {
   return (
     <div className="text-center space-y-6">
-      <h1 className="text-3xl font-bold">What are you feeling? 😋</h1>
+      <h1 className="text-3xl font-bold">What are we feeling? 😋</h1>
 
       <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
         {foods.map((food) => (
@@ -38,7 +38,7 @@ export default function Step4({
         onClick={() => setStep(5)}
         className="bg-pink-500 px-6 py-3 rounded-xl font-bold"
       >
-        finish →
+        this one →
       </button>
     </div>
   );

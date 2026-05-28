@@ -24,7 +24,7 @@ export default function Step2({
       >
         WAIT... YOU ACTUALLY SAID YES?? 😳💖
       </motion.h1>
-      <p>I was so ready for you say no :P </p>
+      <p>I was so ready for you say no 😅</p>
       <button
         onClick={() => setStep(3)}
         className="bg-pink-500 px-6 py-3 rounded-xl font-bold"
