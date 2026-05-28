@@ -22,14 +22,14 @@ export default function Step2({
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        WAIT... YOU SAID YES 😳💖
+        WAIT... YOU ACTUALLY SAID YES?? 😳💖
       </motion.h1>
-
+      <p>I was so ready for you say no :P </p>
       <button
         onClick={() => setStep(3)}
         className="bg-pink-500 px-6 py-3 rounded-xl font-bold"
       >
-        continue →
+        Okay, okay →
       </button>
     </div>
   );

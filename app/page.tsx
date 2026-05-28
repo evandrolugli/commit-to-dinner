@@ -9,7 +9,7 @@ import Step5 from "@/components/Step5";
 
 export default function Home() {
   const [step, setStep] = useState(1);
-
+  
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedTime, setSelectedTime] = useState("");
   const [selectedFood, setSelectedFood] = useState("");
