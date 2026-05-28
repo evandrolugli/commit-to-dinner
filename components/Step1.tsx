@@ -25,7 +25,7 @@ export default function Step1({
 />
 
       <h1 className="text-5xl font-bold mb-10">
-        Will you go on a date with me? 💖
+        Tami Tami, will you go on a date with me? 💖
       </h1>
 
       {/* BUTTON AREA */}
